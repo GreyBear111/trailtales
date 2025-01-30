@@ -1,0 +1,20 @@
+[
+  {
+    "name": "qwe",
+    "country": "asd",
+    "city": "dfg",
+    "description": "xcv",
+    "startDate": "05.06.2002",
+    "endDate": "20.06.2004",
+    "participants": []
+  },
+  {
+    "name": "qwe",
+    "country": "qwe",
+    "city": "qwe",
+    "description": "qwe",
+    "startDate": "02.05.2001",
+    "endDate": "03.06.2002",
+    "participants": []
+  }
+]
