@@ -1,15 +1,24 @@
 package entity;
 
+/**
+ * Клас представляє місцезнаходження, що включає країну, місто та координати.
+ * Дотримується принципу інкапсуляції.
+ */
 public class Location {
-    private String country;
-    private String city;
-    private String coordinates;
+    private String country;      // Назва країни
+    private String city;         // Назва міста
+    private String coordinates;  // Координати у форматі рядка
 
+    /**
+     * Конструктор класу, що ініціалізує місцезнаходження.
+     */
     public Location(String country, String city, String coordinates) {
         this.country = country;
         this.city = city;
         this.coordinates = coordinates;
     }
+
+    // Гетери та сетери для доступу до полів класу
 
     public String getCountry() {
         return country;
@@ -35,6 +44,9 @@ public class Location {
         this.coordinates = coordinates;
     }
 
+    /**
+     * Перевизначений метод toString для зручного виведення інформації про місцезнаходження.
+     */
     @Override
     public String toString() {
         return city + ", " + country + " (" + coordinates + ")";

@@ -10,5 +10,6 @@
     <orderEntry type="library" name="gson-2.11.1" level="project" />
     <orderEntry type="library" name="gson-2.11.0" level="project" />
     <orderEntry type="library" name="jansi-2.4.0" level="project" />
+    <orderEntry type="library" name="jbcrypt-0.4" level="project" />
   </component>
 </module>

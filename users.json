@@ -1,17 +1,27 @@
 [
   {
     "name": "qwe",
-    "email": "a@",
-    "password": "1111"
+    "email": "asd@",
+    "password": "$2a$10$eSKMiOuYtHHHimw92cGwVe2IWm0JDNhrO2BDU.boAlIs9bt2KAQzy"
+  },
+  {
+    "name": "asda",
+    "email": "asdasf@",
+    "password": "$2a$10$erh8Fp6vpOVh0X3oUegObeeVbG/Xud9jL8j4vslFiiOVo5haCmENy"
   },
   {
     "name": "qweqwe",
-    "email": "as@",
-    "password": "1111"
+    "email": "qwe@",
+    "password": "$2a$10$zsA8LQRuGswxy/X4ZHOlSuTbQ.7D7FpLFR8ndxFjgJa9OA6mjZoQy"
   },
   {
-    "name": "123",
-    "email": "A@",
-    "password": "123as"
+    "name": "Illya",
+    "email": "potygno@gmail.com",
+    "password": "$2a$10$hV7voiVP1buEqIPyvDA/t.X470B7U1j4n.oduEha.AKkConv2C516"
+  },
+  {
+    "name": "sadf",
+    "email": "@",
+    "password": "$2a$10$Hux0/aBtrPIOTaP/IdoGD.5nSZwz.2TZk7DOyCUiJPsCO3COsx2dG"
   }
 ]

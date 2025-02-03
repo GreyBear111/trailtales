@@ -1,20 +1,43 @@
 [
   {
-    "name": "qwe",
-    "country": "asd",
-    "city": "dfg",
-    "description": "xcv",
-    "startDate": "05.06.2002",
-    "endDate": "20.06.2004",
-    "participants": []
+    "name": "123",
+    "location": {
+      "country": "dfg",
+      "city": "ret",
+      "coordinates": ""
+    },
+    "description": "vcb",
+    "startDate": "04.05.2000",
+    "endDate": "04.06.2015",
+    "participants": [],
+    "ownerEmail": "qwe@"
   },
   {
-    "name": "qwe",
-    "country": "qwe",
-    "city": "qwe",
-    "description": "qwe",
-    "startDate": "02.05.2001",
-    "endDate": "03.06.2002",
-    "participants": []
+    "name": "Незабутня подорож",
+    "location": {
+      "country": "Україна",
+      "city": "Ужгород",
+      "coordinates": ""
+    },
+    "description": "Неймовірне місто із старовинною архітектурою",
+    "startDate": "05.07.2015",
+    "endDate": "07.11.2018",
+    "participants": [],
+    "ownerEmail": "potygno@gmail.com"
+  },
+  {
+    "name": "Супер поїздка",
+    "location": {
+      "country": "Чехія",
+      "city": "Прага",
+      "coordinates": ""
+    },
+    "description": "Неймовірне місто",
+    "startDate": "04.06.2016",
+    "endDate": "06.07.2016",
+    "participants": [
+      "Ілюша"
+    ],
+    "ownerEmail": "potygno@gmail.com"
   }
 ]

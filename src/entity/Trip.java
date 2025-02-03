@@ -1,27 +1,36 @@
 package entity;
 
 import java.time.LocalDate;
-import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Клас представляє подорож, що містить основну інформацію про неї.
+ * Включає назву, місцезнаходження, опис, дати, список учасників та власника.
+ * Дотримується принципу інкапсуляції.
+ */
 public class Trip {
-    private String name;
-    private String country;
-    private String city;
-    private String description;
-    private LocalDate startDate;
-    private LocalDate endDate;
-    private List<String> participants;
+    private String name;               // Назва подорожі
+    private Location location;         // Місцезнаходження подорожі
+    private String description;        // Опис подорожі
+    private LocalDate startDate;       // Дата початку подорожі
+    private LocalDate endDate;         // Дата завершення подорожі
+    private List<String> participants; // Список учасників подорожі (електронні адреси)
+    private String ownerEmail;         // Електронна адреса власника подорожі
 
-    public Trip(String name, String country, String city, String description, LocalDate startDate, LocalDate endDate, List<String> participants) {
+    /**
+     * Конструктор для створення нового об'єкта подорожі.
+     */
+    public Trip(String name, Location location, String description, LocalDate startDate, LocalDate endDate, List<String> participants, String ownerEmail) {
         this.name = name;
-        this.country = country;
-        this.city = city;
+        this.location = location;
         this.description = description;
         this.startDate = startDate;
         this.endDate = endDate;
         this.participants = participants;
+        this.ownerEmail = ownerEmail;
     }
+
+    // Геттери та сеттери для доступу до полів класу
 
     public String getName() {
         return name;
@@ -31,20 +40,12 @@ public class Trip {
         this.name = name;
     }
 
-    public String getCountry() {
-        return country;
+    public Location getLocation() {
+        return location;
     }
 
-    public void setCountry(String country) {
-        this.country = country;
-    }
-
-    public String getCity() {
-        return city;
-    }
-
-    public void setCity(String city) {
-        this.city = city;
+    public void setLocation(Location location) {
+        this.location = location;
     }
 
     public String getDescription() {
@@ -79,8 +80,19 @@ public class Trip {
         this.participants = participants;
     }
 
+    public String getOwnerEmail() {
+        return ownerEmail;
+    }
+
+    public void setOwnerEmail(String ownerEmail) {
+        this.ownerEmail = ownerEmail;
+    }
+
+    /**
+     * Перевизначений метод toString для зручного виведення інформації про подорож.
+     */
     @Override
     public String toString() {
-        return name + " - " + description + " (" + startDate + " to " + endDate + ")";
+        return name + " - " + description + " (" + startDate + " to " + endDate + ") at " + location + " [Owner: " + ownerEmail + "]";
     }
 }
